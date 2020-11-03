@@ -1,0 +1,34 @@
+Script started on 2020-09-21 11:44:52-04:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="120" LINES="50"]
+]0;ahemmin@compute:~/courses/cs2211a/Asn/asn1/q2and3[ahemmin@compute q2and3]$ date
+Mon 21 Sep 2020 11:45:04 AM EDT
+]0;ahemmin@compute:~/courses/cs2211a/Asn/asn1/q2and3[ahemmin@compute q2and3]$ who am i
+ahemmin  pts/15       2020-09-21 11:44
+]0;ahemmin@compute:~/courses/cs2211a/Asn/asn1/q2and3[ahemmin@compute q2and3]$ pwd
+/home/ahemmin/courses/cs2211a/Asn/asn1/q2and3
+]0;ahemmin@compute:~/courses/cs2211a/Asn/asn1/q2and3[ahemmin@compute q2and3]$ usr[K[K[K/usr/bin/ls dir0 dir1 df0 df1
+/usr/bin/ls: cannot access 'df0': No such file or directory
+/usr/bin/ls: cannot access 'df1': No such file or directory
+dir0:
+dir0
+
+dir1:
+df1
+]0;ahemmin@compute:~/courses/cs2211a/Asn/asn1/q2and3[ahemmin@compute q2and3]$ /usr/bin/ls -l dir0 dir1
+dir0:
+total 10
+-rw-rw-r-- 1 ahemmin ahemmin 21 Sep 21 09:50 dir0
+
+dir1:
+total 10
+-rw-rw-r-- 1 ahemmin ahemmin 31 Sep 21 11:05 df1
+]0;ahemmin@compute:~/courses/cs2211a/Asn/asn1/q2and3[ahemmin@compute q2and3]$ /usr/bin/ls -l -d dir0 dir1
+drwxrwxr-x 2 ahemmin ahemmin 3 Sep 21 09:50 dir0
+drwxrwxr-x 2 ahemmin ahemmin 3 Sep 21 11:20 dir1
+]0;ahemmin@compute:~/courses/cs2211a/Asn/asn1/q2and3[ahemmin@compute q2and3]$ /usr/bin/ls [K
+asn1_q3.script	dir0  dir1
+]0;ahemmin@compute:~/courses/cs2211a/Asn/asn1/q2and3[ahemmin@compute q2and3]$ /usr/bin/ls .
+asn1_q3.script	dir0  dir1
+]0;ahemmin@compute:~/courses/cs2211a/Asn/asn1/q2and3[ahemmin@compute q2and3]$ exit
+exit
+
+Script done on 2020-09-21 11:51:38-04:00 [COMMAND_EXIT_CODE="0"]
